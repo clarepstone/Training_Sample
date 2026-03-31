@@ -4,11 +4,11 @@
   <Parent />
   <Previous />
   <LastModifiedBy>ClareStone</LastModifiedBy>
-  <LastModifiedOn>2026-03-31T15:52:03.479485+01:00</LastModifiedOn>
+  <LastModifiedOn>2026-03-31T15:53:07.7884476+01:00</LastModifiedOn>
   <CreatedBy>ClareStone</CreatedBy>
   <CreatedOn>2026-03-31T15:41:14.6514582+01:00</CreatedOn>
   <Folder>false</Folder>
-  <LastModified>2026-03-31T15:52:03.479485+01:00</LastModified>
+  <LastModified>2026-03-31T15:53:07.7884476+01:00</LastModified>
   <Notes>Liability Projection Model</Notes>
   <OpeningInformation />
   <IsExpanded>true</IsExpanded>
@@ -16,6 +16,26 @@
   <Declarations />
   <UseDefaultExecuteCode>false</UseDefaultExecuteCode>
   <Inputs>
+    <Input>
+      <Name>Age</Name>
+      <Parent>Policy Data</Parent>
+      <Previous>SumAssured</Previous>
+      <LastModifiedBy>ClareStone</LastModifiedBy>
+      <LastModifiedOn>2026-03-31T15:53:07.7884476+01:00</LastModifiedOn>
+      <CreatedBy>ClareStone</CreatedBy>
+      <CreatedOn>2026-03-31T15:52:45.3121674+01:00</CreatedOn>
+      <Folder>false</Folder>
+      <LastModified>2026-03-31T15:53:07.7884476+01:00</LastModified>
+      <Notes>Age at policy commencement</Notes>
+      <OpeningInformation />
+      <IsExpanded>true</IsExpanded>
+      <DataType>Integer</DataType>
+      <Value>35</Value>
+      <Format>#,##0</Format>
+      <Override>false</Override>
+      <IsPrivate>false</IsPrivate>
+      <AllowNulls>false</AllowNulls>
+    </Input>
     <Input>
       <Name>Personal Data</Name>
       <Parent />
