@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Training_Sample</Name>
+  <LastModifiedOn xsi:nil="true" />
+  <CreatedOn xsi:nil="true" />
+  <Folder>false</Folder>
+  <LastModified>0001-01-01T00:00:00</LastModified>
+  <Notes />
+  <OpeningInformation />
+  <IsExpanded>true</IsExpanded>
+  <CreateDate>2026-03-31T15:39:00.9824435+01:00</CreateDate>
+  <UserId>ClareStone</UserId>
+  <AppVersion>6000</AppVersion>
+  <VersionNo>1.000</VersionNo>
+  <CompanyName />
+  <Logo />
+  <Documentation />
+  <DocumentationBackedUp>false</DocumentationBackedUp>
+  <CommitDate>0001-01-01T00:00:00</CommitDate>
+  <References />
+  <ExternalSourceControl>true</ExternalSourceControl>
+  <DisableLastModified>true</DisableLastModified>
+  <RevisionIds />
+  <OpenAsReadOnly>false</OpenAsReadOnly>
+</Project>
