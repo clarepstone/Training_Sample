@@ -4,18 +4,59 @@
   <Parent />
   <Previous />
   <LastModifiedBy>ClareStone</LastModifiedBy>
-  <LastModifiedOn>2026-03-31T15:41:33.4617377+01:00</LastModifiedOn>
+  <LastModifiedOn>2026-03-31T15:49:00.3353652+01:00</LastModifiedOn>
   <CreatedBy>ClareStone</CreatedBy>
   <CreatedOn>2026-03-31T15:41:14.6514582+01:00</CreatedOn>
   <Folder>false</Folder>
-  <LastModified>2026-03-31T15:41:33.4617377+01:00</LastModified>
+  <LastModified>2026-03-31T15:49:00.3353652+01:00</LastModified>
   <Notes>Liability Projection Model</Notes>
   <OpeningInformation />
   <IsExpanded>true</IsExpanded>
   <Inherit>false</Inherit>
   <Declarations />
   <UseDefaultExecuteCode>false</UseDefaultExecuteCode>
-  <Inputs />
+  <Inputs>
+    <Input>
+      <Name>Personal Data</Name>
+      <Parent />
+      <Previous>Policy Data</Previous>
+      <LastModifiedBy>ClareStone</LastModifiedBy>
+      <LastModifiedOn>2026-03-31T15:49:00.3353652+01:00</LastModifiedOn>
+      <CreatedBy>ClareStone</CreatedBy>
+      <CreatedOn>2026-03-31T15:48:55.6951917+01:00</CreatedOn>
+      <Folder>true</Folder>
+      <LastModified>2026-03-31T15:49:00.3353652+01:00</LastModified>
+      <Notes />
+      <OpeningInformation />
+      <IsExpanded>true</IsExpanded>
+      <DataType>Double</DataType>
+      <Value />
+      <Format>#,##0.00</Format>
+      <Override>false</Override>
+      <IsPrivate>false</IsPrivate>
+      <AllowNulls>false</AllowNulls>
+    </Input>
+    <Input>
+      <Name>Policy Data</Name>
+      <Parent />
+      <Previous />
+      <LastModifiedBy>ClareStone</LastModifiedBy>
+      <LastModifiedOn>2026-03-31T15:48:51.5756463+01:00</LastModifiedOn>
+      <CreatedBy>ClareStone</CreatedBy>
+      <CreatedOn>2026-03-31T15:48:44.7682122+01:00</CreatedOn>
+      <Folder>true</Folder>
+      <LastModified>2026-03-31T15:48:51.5756463+01:00</LastModified>
+      <Notes />
+      <OpeningInformation />
+      <IsExpanded>true</IsExpanded>
+      <DataType>Double</DataType>
+      <Value />
+      <Format>#,##0.00</Format>
+      <Override>false</Override>
+      <IsPrivate>false</IsPrivate>
+      <AllowNulls>false</AllowNulls>
+    </Input>
+  </Inputs>
   <Params />
   <Formulae />
   <Runs />
