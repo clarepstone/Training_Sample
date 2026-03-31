@@ -4,11 +4,11 @@
   <Parent />
   <Previous />
   <LastModifiedBy>ClareStone</LastModifiedBy>
-  <LastModifiedOn>2026-03-31T15:49:00.3353652+01:00</LastModifiedOn>
+  <LastModifiedOn>2026-03-31T15:52:03.479485+01:00</LastModifiedOn>
   <CreatedBy>ClareStone</CreatedBy>
   <CreatedOn>2026-03-31T15:41:14.6514582+01:00</CreatedOn>
   <Folder>false</Folder>
-  <LastModified>2026-03-31T15:49:00.3353652+01:00</LastModified>
+  <LastModified>2026-03-31T15:52:03.479485+01:00</LastModified>
   <Notes>Liability Projection Model</Notes>
   <OpeningInformation />
   <IsExpanded>true</IsExpanded>
@@ -52,6 +52,86 @@
       <DataType>Double</DataType>
       <Value />
       <Format>#,##0.00</Format>
+      <Override>false</Override>
+      <IsPrivate>false</IsPrivate>
+      <AllowNulls>false</AllowNulls>
+    </Input>
+    <Input>
+      <Name>StartDate</Name>
+      <Parent>Policy Data</Parent>
+      <Previous>UniqueID</Previous>
+      <LastModifiedBy>ClareStone</LastModifiedBy>
+      <LastModifiedOn>2026-03-31T15:51:08.3551893+01:00</LastModifiedOn>
+      <CreatedBy>ClareStone</CreatedBy>
+      <CreatedOn>2026-03-31T15:50:37.5296988+01:00</CreatedOn>
+      <Folder>false</Folder>
+      <LastModified>2026-03-31T15:51:08.3551893+01:00</LastModified>
+      <Notes>Date of policy commencement</Notes>
+      <OpeningInformation />
+      <IsExpanded>true</IsExpanded>
+      <DataType>Date</DataType>
+      <Value>01/01/2020</Value>
+      <Format>dd/MM/yyyy</Format>
+      <Override>false</Override>
+      <IsPrivate>false</IsPrivate>
+      <AllowNulls>false</AllowNulls>
+    </Input>
+    <Input>
+      <Name>SumAssured</Name>
+      <Parent>Policy Data</Parent>
+      <Previous>Term</Previous>
+      <LastModifiedBy>ClareStone</LastModifiedBy>
+      <LastModifiedOn>2026-03-31T15:52:03.479485+01:00</LastModifiedOn>
+      <CreatedBy>ClareStone</CreatedBy>
+      <CreatedOn>2026-03-31T15:51:37.8097993+01:00</CreatedOn>
+      <Folder>false</Folder>
+      <LastModified>2026-03-31T15:52:03.479485+01:00</LastModified>
+      <Notes>Sum Assured</Notes>
+      <OpeningInformation />
+      <IsExpanded>true</IsExpanded>
+      <DataType>Double</DataType>
+      <Value>10000</Value>
+      <Format>#,##0.00</Format>
+      <Override>false</Override>
+      <IsPrivate>false</IsPrivate>
+      <AllowNulls>false</AllowNulls>
+    </Input>
+    <Input>
+      <Name>Term</Name>
+      <Parent>Policy Data</Parent>
+      <Previous>StartDate</Previous>
+      <LastModifiedBy>ClareStone</LastModifiedBy>
+      <LastModifiedOn>2026-03-31T15:51:32.2356843+01:00</LastModifiedOn>
+      <CreatedBy>ClareStone</CreatedBy>
+      <CreatedOn>2026-03-31T15:51:13.1058934+01:00</CreatedOn>
+      <Folder>false</Folder>
+      <LastModified>2026-03-31T15:51:32.2356843+01:00</LastModified>
+      <Notes>Policy term in years</Notes>
+      <OpeningInformation />
+      <IsExpanded>true</IsExpanded>
+      <DataType>Double</DataType>
+      <Value>20</Value>
+      <Format>#,##0.00</Format>
+      <Override>false</Override>
+      <IsPrivate>false</IsPrivate>
+      <AllowNulls>false</AllowNulls>
+    </Input>
+    <Input>
+      <Name>UniqueID</Name>
+      <Parent>Policy Data</Parent>
+      <Previous />
+      <LastModifiedBy>ClareStone</LastModifiedBy>
+      <LastModifiedOn>2026-03-31T15:50:14.4491359+01:00</LastModifiedOn>
+      <CreatedBy>ClareStone</CreatedBy>
+      <CreatedOn>2026-03-31T15:49:47.5387464+01:00</CreatedOn>
+      <Folder>false</Folder>
+      <LastModified>2026-03-31T15:50:14.4491359+01:00</LastModified>
+      <Notes>Model point identifier</Notes>
+      <OpeningInformation />
+      <IsExpanded>true</IsExpanded>
+      <DataType>String</DataType>
+      <Value>ABC123</Value>
+      <Format />
       <Override>false</Override>
       <IsPrivate>false</IsPrivate>
       <AllowNulls>false</AllowNulls>
