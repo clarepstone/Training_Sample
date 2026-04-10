@@ -4,18 +4,119 @@
   <Parent />
   <Previous />
   <LastModifiedBy>ClareStone</LastModifiedBy>
-  <LastModifiedOn>2026-03-31T15:41:33.4617377+01:00</LastModifiedOn>
+  <LastModifiedOn>2026-04-10T08:46:26.9910649+01:00</LastModifiedOn>
   <CreatedBy>ClareStone</CreatedBy>
   <CreatedOn>2026-03-31T15:41:14.6514582+01:00</CreatedOn>
   <Folder>false</Folder>
-  <LastModified>2026-03-31T15:41:33.4617377+01:00</LastModified>
+  <LastModified>2026-04-10T08:46:26.9910649+01:00</LastModified>
   <Notes>Liability Projection Model</Notes>
   <OpeningInformation />
   <IsExpanded>true</IsExpanded>
   <Inherit>false</Inherit>
   <Declarations />
   <UseDefaultExecuteCode>false</UseDefaultExecuteCode>
-  <Inputs />
+  <Inputs>
+    <Input>
+      <Name>Policy Data</Name>
+      <Parent />
+      <Previous />
+      <LastModifiedBy>ClareStone</LastModifiedBy>
+      <LastModifiedOn>2026-04-10T08:44:43.8594804+01:00</LastModifiedOn>
+      <CreatedBy>ClareStone</CreatedBy>
+      <CreatedOn>2026-04-10T08:44:28.3927725+01:00</CreatedOn>
+      <Folder>true</Folder>
+      <LastModified>2026-04-10T08:44:43.8594804+01:00</LastModified>
+      <Notes />
+      <OpeningInformation />
+      <IsExpanded>true</IsExpanded>
+      <DataType>Double</DataType>
+      <Value />
+      <Format>#,##0.00</Format>
+      <Override>false</Override>
+      <IsPrivate>false</IsPrivate>
+      <AllowNulls>false</AllowNulls>
+    </Input>
+    <Input>
+      <Name>SmokerStatus</Name>
+      <Parent>Policy Data</Parent>
+      <Previous>Term</Previous>
+      <LastModifiedBy>ClareStone</LastModifiedBy>
+      <LastModifiedOn>2026-04-10T08:46:26.9910649+01:00</LastModifiedOn>
+      <CreatedBy>ClareStone</CreatedBy>
+      <CreatedOn>2026-04-10T08:45:56.6515641+01:00</CreatedOn>
+      <Folder>false</Folder>
+      <LastModified>2026-04-10T08:46:26.9910649+01:00</LastModified>
+      <Notes />
+      <OpeningInformation />
+      <IsExpanded>true</IsExpanded>
+      <DataType>String</DataType>
+      <Value>WhiteCollar</Value>
+      <Format />
+      <Override>false</Override>
+      <IsPrivate>false</IsPrivate>
+      <AllowNulls>false</AllowNulls>
+    </Input>
+    <Input>
+      <Name>StartDate</Name>
+      <Parent>Policy Data</Parent>
+      <Previous>UniqueID</Previous>
+      <LastModifiedBy>ClareStone</LastModifiedBy>
+      <LastModifiedOn>2026-04-10T08:45:28.1510495+01:00</LastModifiedOn>
+      <CreatedBy>ClareStone</CreatedBy>
+      <CreatedOn>2026-04-10T08:45:04.763753+01:00</CreatedOn>
+      <Folder>false</Folder>
+      <LastModified>2026-04-10T08:45:28.1510495+01:00</LastModified>
+      <Notes />
+      <OpeningInformation />
+      <IsExpanded>true</IsExpanded>
+      <DataType>Date</DataType>
+      <Value>01/01/2020</Value>
+      <Format>dd/MM/yyyy</Format>
+      <Override>false</Override>
+      <IsPrivate>false</IsPrivate>
+      <AllowNulls>false</AllowNulls>
+    </Input>
+    <Input>
+      <Name>Term</Name>
+      <Parent>Policy Data</Parent>
+      <Previous>StartDate</Previous>
+      <LastModifiedBy>ClareStone</LastModifiedBy>
+      <LastModifiedOn>2026-04-10T08:45:45.737618+01:00</LastModifiedOn>
+      <CreatedBy>ClareStone</CreatedBy>
+      <CreatedOn>2026-04-10T08:45:31.4511998+01:00</CreatedOn>
+      <Folder>false</Folder>
+      <LastModified>2026-04-10T08:45:45.737618+01:00</LastModified>
+      <Notes />
+      <OpeningInformation />
+      <IsExpanded>true</IsExpanded>
+      <DataType>Double</DataType>
+      <Value>20</Value>
+      <Format>#,##0.00</Format>
+      <Override>false</Override>
+      <IsPrivate>false</IsPrivate>
+      <AllowNulls>false</AllowNulls>
+    </Input>
+    <Input>
+      <Name>UniqueID</Name>
+      <Parent>Policy Data</Parent>
+      <Previous />
+      <LastModifiedBy>ClareStone</LastModifiedBy>
+      <LastModifiedOn>2026-04-10T08:45:02.876952+01:00</LastModifiedOn>
+      <CreatedBy>ClareStone</CreatedBy>
+      <CreatedOn>2026-04-10T08:44:49.0697615+01:00</CreatedOn>
+      <Folder>false</Folder>
+      <LastModified>2026-04-10T08:45:02.876952+01:00</LastModified>
+      <Notes />
+      <OpeningInformation />
+      <IsExpanded>true</IsExpanded>
+      <DataType>String</DataType>
+      <Value>ABC123</Value>
+      <Format />
+      <Override>false</Override>
+      <IsPrivate>false</IsPrivate>
+      <AllowNulls>false</AllowNulls>
+    </Input>
+  </Inputs>
   <Params />
   <Formulae />
   <Runs />
