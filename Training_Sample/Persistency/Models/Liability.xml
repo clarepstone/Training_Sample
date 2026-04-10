@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Liability</Name>
+  <Parent />
+  <Previous />
+  <LastModifiedBy>ClareStone</LastModifiedBy>
+  <LastModifiedOn>2026-04-10T10:48:18.4308834+01:00</LastModifiedOn>
+  <CreatedBy>ClareStone</CreatedBy>
+  <CreatedOn>2026-04-10T10:47:47.4109601+01:00</CreatedOn>
+  <Folder>false</Folder>
+  <LastModified>2026-04-10T10:48:18.4308834+01:00</LastModified>
+  <Notes />
+  <OpeningInformation />
+  <IsExpanded>true</IsExpanded>
+  <Inherit>false</Inherit>
+  <Declarations />
+  <UseDefaultExecuteCode>false</UseDefaultExecuteCode>
+  <Inputs>
+    <Input>
+      <Name>Personal data</Name>
+      <Parent />
+      <Previous>Policy data</Previous>
+      <LastModifiedBy>ClareStone</LastModifiedBy>
+      <LastModifiedOn>2026-04-10T10:48:18.4308834+01:00</LastModifiedOn>
+      <CreatedBy>ClareStone</CreatedBy>
+      <CreatedOn>2026-04-10T10:48:12.6109727+01:00</CreatedOn>
+      <Folder>true</Folder>
+      <LastModified>2026-04-10T10:48:18.4308834+01:00</LastModified>
+      <Notes />
+      <OpeningInformation />
+      <IsExpanded>true</IsExpanded>
+      <DataType>Double</DataType>
+      <Value />
+      <Format>#,##0.00</Format>
+      <Override>false</Override>
+      <IsPrivate>false</IsPrivate>
+      <AllowNulls>false</AllowNulls>
+    </Input>
+    <Input>
+      <Name>Policy data</Name>
+      <Parent />
+      <Previous />
+      <LastModifiedBy>ClareStone</LastModifiedBy>
+      <LastModifiedOn>2026-04-10T10:48:09.0884685+01:00</LastModifiedOn>
+      <CreatedBy>ClareStone</CreatedBy>
+      <CreatedOn>2026-04-10T10:48:02.5177324+01:00</CreatedOn>
+      <Folder>true</Folder>
+      <LastModified>2026-04-10T10:48:09.0884685+01:00</LastModified>
+      <Notes />
+      <OpeningInformation />
+      <IsExpanded>true</IsExpanded>
+      <DataType>Double</DataType>
+      <Value />
+      <Format>#,##0.00</Format>
+      <Override>false</Override>
+      <IsPrivate>false</IsPrivate>
+      <AllowNulls>false</AllowNulls>
+    </Input>
+  </Inputs>
+  <Params />
+  <Formulae />
+  <Runs />
+</Model>
